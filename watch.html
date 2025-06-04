@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Watch Gallery</title><link rel="stylesheet" href="styles.css" /></head>
+<body><h1>Watch Gallery</h1><a href="index.html"  class="back-button">← Back to Home</a>
+<div class="gallery">
+    <img src="https://timeandtidewatches.com/wp-content/uploads/2017/12/Omega-Speedmaster-Racing-Grey-2.jpg" class="gallery-item" onclick="openLightbox(0)" />  
+    <img src="https://www.thejewelleryeditor.com/media/images_thumbnails/filer_public_thumbnails/filer_public/45/3a/453a9d75-aa09-4cf7-90b0-8e0db5d9cff7/2.jpg__1536x0_q75_crop-scale_subsampling-2_upscale-false.jpg" class="gallery-item" onclick="openLightbox(1)" />  
+    <img src="https://www.bexsonn.com/wp-content/uploads/2017/02/RO_26331IP-OO-1220IP-01_1_closeup_Original_001.jpg" class="gallery-item" onclick="openLightbox(2)" />  
+    <img src="https://watchesbysjx.com/wp-content/uploads/2023/01/TAG-Heuer-Carrera-Chronograph-60th-Anniversary-lifestyle-2.jpg" class="gallery-item" onclick="openLightbox(3)" />  
+    <img src="https://media.karousell.com/media/photos/products/2022/8/25/seiko_cartier_santos_mod_1661417561_daf8bce7_progressive.jpg" class="gallery-item" onclick="openLightbox(4)" />  
+    <img src="https://cdn2.chrono24.com/images/topmodels/32-xcsqgvlam7nyy8ykaa1flncp-Main_2x.png" class="gallery-item" onclick="openLightbox(5)" />  
+    <img src="https://www.iwc.com/content/dam/watches-wonders/subcollection-pages/complications/newbanner_teaser.jpg" class="gallery-item" onclick="openLightbox(6)" />  
+    <img src="https://oracleoftime.com/wp-content/uploads/2022/09/Best-Affordable-Alternatives-to-the-Richard-Mille-RM.jpg" class="gallery-item" onclick="openLightbox(7)" />  
+    <img src="https://thewatchlounge.com/wp-content/uploads/2018/09/HUBLOT-CLASSIC-FUSION-CHRONOGRAPH-45MM-521.OX_.7180.LR-The-Watch-Lounge-Shop-3-2048x2048.jpg" class="gallery-item" onclick="openLightbox(8)" />  
+    <img src="https://monochrome-watches.com/wp-content/uploads/2023/04/Seiko-Presage-Style-60s-GMT-SSK011-Hands-On-Review-2.jpg" class="gallery-item" onclick="openLightbox(9)" />  
+    <img src="https://images.squarespace-cdn.com/content/v1/59ed5acbd7bdce7cce158518/1668408718776-FXP72SX0ADRPZ772BY4I/Grand+Seiko+White+Birch+Hi-Beat+SLGH005+-+2022+Watch+Vault+02.JPG" class="gallery-item" onclick="openLightbox(10)" />  
+    <img src="https://watchesbysjx.com/wp-content/uploads/2017/04/Panerai-Panerai-Luminor-1950-PCYC-Chrono-Flyback-PAM-653.jpg" class="gallery-item" onclick="openLightbox(11)" />  
+<button id="seeMoreBtn" class="see-more-btn" onclick="showMore()">See More</button>
+
+  </div>
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" />
+  <a class="prev" onclick="changeSlide(-1)">❮</a>
+  <a class="next" onclick="changeSlide(1)">❯</a>
+</div>
+<script src="script.js"></script></body></html>

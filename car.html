@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Cars Gallery</title><link rel="stylesheet" href="styles.css" /></head>
+<body><h1>Cars Gallery</h1><a href="index.html"  class="back-button">← Back to Home</a>
+<div class="gallery">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/2025-toyota-camry-xse-awd-123-66993cc94cc40.jpg?crop=1xw:1xh;center,top&resize=980:*" class="gallery-item" onclick="openLightbox(0)" />  
+    <img src="https://i.ytimg.com/vi/wwJX0liEwr8/maxresdefault.jpg" class="gallery-item" onclick="openLightbox(1)" />  
+    <img src="https://images.cars.com/cldstatic/wp-content/uploads/mustang-mach-e-2025-exterior-oem-01.jpg" class="gallery-item" onclick="openLightbox(2)" />  
+    <img src="https://cdn-img.automoto.it/images/32144709/1200x/tesla-model-3-highland-nuovo-frontale-ecco-il-rendering.jpeg" class="gallery-item" onclick="openLightbox(3)" />  
+    <img src="https://images.hgmsites.net/hug/2025-bmw-i5_100937585_h.webp" class="gallery-item" onclick="openLightbox(4)" />  
+    <img src="https://www.usnews.com/object/image/00000190-c23a-d812-a196-cb7fd4520000/20-2024-mercedes-benz-eqe-suv-angular-front-jmv.JPG?update-time=1721245630254&size=responsiveGallery" class="gallery-item" onclick="openLightbox(5)" />  
+    <img src="https://cdn.automobile-propre.com/uploads/2020/08/Hyundai-Ioniq-6-2022-Concept-Prophecy-arri%C3%A8re.jpg" class="gallery-item" onclick="openLightbox(6)" />  
+    <img src="https://s.yimg.com/ny/api/res/1.2/Gfe3O.Ku64JP2TsBRTLcgA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMA--/https://media.zenfs.com/en/business_insider_articles_888/31cda6badd01086261e5d9b8f1208ca2" class="gallery-item" onclick="openLightbox(7)" />  
+    <img src="https://www.thedrive.com/wp-content/uploads/2023/04/17/id7-hero-1-scaled-e1681706762828.jpeg?auto=webp&crop=16:9&auto=webp&optimize=high&quality=70&width=3840" class="gallery-item" onclick="openLightbox(8)" />  
+    <img src="https://electrek.co/wp-content/uploads/sites/3/2023/09/Chevy-Equinox-EV-images.jpeg?quality=82&strip=all&w=1400" class="gallery-item" onclick="openLightbox(9)" />  
+    <img src="https://www.autocar.co.nz/wp-content/uploads/2024/03/2025-audi-q6-etron-1.jpg" class="gallery-item" onclick="openLightbox(10)" />  
+    <img src="https://netcarflix.sfo2.cdn.digitaloceanspaces.com/0000/v3/Nissan/65a0b6b3ed28cdf2c4bcf33d/2025-ariya-nismo-nissan-1ykt7ssssss0tbopiotipz.jpeg" class="gallery-item" onclick="openLightbox(11)" />  
+    <img src="https://daxstreet.com/wp-content/uploads/2023/12/2024-Lexus-GX550.jpg" class="gallery-item" onclick="openLightbox(12)" />  
+    <img src="https://cuyomotor.com.ar/wp-content/uploads/2024/01/2025-mazda-cx-70-exterior-front-quarter.jpg" class="gallery-item" onclick="openLightbox(13)" />  
+    <img src="https://images.carexpert.com.au/resize/3000/-/app/uploads/2024/01/porsche-macan-turbo-2.jpg" class="gallery-item" onclick="openLightbox(14)" />  
+<button id="seeMoreBtn" class="see-more-btn" onclick="showMore()">See More</button>
+  </div>
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" />
+  <a class="prev" onclick="changeSlide(-1)">❮</a>
+  <a class="next" onclick="changeSlide(1)">❯</a>
+</div>
+<script src="script.js"></script></body></html>

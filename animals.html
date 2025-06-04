@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Animals Gallery</title><link rel="stylesheet" href="styles.css" /></head>
+<body><h1>Animals Gallery</h1><a href="index.html"  class="back-button">← Back to Home</a>
+<div class="gallery">
+  <img src="https://c.wallhere.com/photos/10/3a/mountains_animals_snow_Siberian_Husky_dog-1235775.jpg!d" class="gallery-item" onclick="openLightbox(0)" />
+  <img src="https://wallup.net/wp-content/uploads/2016/01/140873-landscape-sunset-animals-mountain-wolf.jpg" class="gallery-item" onclick="openLightbox(1)" />
+  <img src="https://wallpapercave.com/wp/wp5850349.jpg" class="gallery-item" onclick="openLightbox(2)" />
+  <img src="https://a-z-animals.com/media/2021/05/Amazing-Mountain-Animal_-Brown-Bear-1024x535.jpg" class="gallery-item" onclick="openLightbox(3)" />
+  <img src="https://i.pinimg.com/originals/8b/94/a2/8b94a2341f17de5788d39a4c0c72e8d7.jpg" class="gallery-item" onclick="openLightbox(4)" />
+  <img src="https://wallpapers.com/images/hd/dark-brown-kangaroo-9884nd4b35ojdy2t.jpg" class="gallery-item" onclick="openLightbox(5)" />
+  <img src="https://wallpapercave.com/wp/wp2478432.jpg" class="gallery-item" onclick="openLightbox(6)" />
+  <img src="https://img.getaway.co.za/wp-content/uploads/2020/04/Cheetah.jpg" class="gallery-item" onclick="openLightbox(7)" />
+  <img src="https://e0.pxfuel.com/wallpapers/314/34/desktop-wallpaper-jungle-animals-real-life-full-rainforest-animals.jpg" class="gallery-item" onclick="openLightbox(8)" />
+  <img src="https://wallpaperaccess.com/full/376321.jpg" class="gallery-item" onclick="openLightbox(9)" />
+  <img src="https://images.hdqwalls.com/download/adult-lion-gr-3840x2160.jpg" class="gallery-item" onclick="openLightbox(10)" />
+  <img src="https://wallpapercave.com/wp/wp2955029.jpg" class="gallery-item" onclick="openLightbox(11)" />
+  <img src="https://images5.alphacoders.com/344/344793.jpg" class="gallery-item" onclick="openLightbox(12)" />
+  <img src="https://images7.alphacoders.com/389/389845.jpg" class="gallery-item" onclick="openLightbox(13)" />
+  <img src="https://images7.alphacoders.com/421/421957.jpg" class="gallery-item" onclick="openLightbox(14)" />
+  <button id="seeMoreBtn" class="see-more-btn" onclick="showMore()">See More</button>
+
+</div>
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" />
+  <a class="prev" onclick="changeSlide(-1)">❮</a>
+  <a class="next" onclick="changeSlide(1)">❯</a>
+</div>
+<script src="script.js"></script></body></html>

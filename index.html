@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="homepage">
+  <h1>Image Gallery</h1>
+  <div class="gallery">
+    <a href="nature.html">
+      <div class="gallery-item-wrapper">
+        <img src="https://masterbundles.com/wp-content/uploads/2023/03/digitaldoodles_realistic_landscape_photography_of_lake_with_pin_d3ae4764-7d26-4b3c-aaf0-c567f30f848d-764-1536x1024.jpeg" class="gallery-item" />
+        <div class="caption">Nature</div>
+      </div>
+    </a>
+
+    <a href="car.html">
+      <div class="gallery-item-wrapper">
+        <img src="https://media.istockphoto.com/id/1034555532/photo/rolls-royce-phantom-parked-in-coventry-town-centre.jpg?s=612x612&w=0&k=20&c=op7MQVmBaD0E38XObS9GozU17l-w3_2jHI5q65TyORs=" class="gallery-item" />
+        <div class="caption">Car</div>
+      </div>
+    </a>
+
+    <a href="birds.html">
+      <div class="gallery-item-wrapper">
+        <img src="https://3.bp.blogspot.com/-dAxglpAGG-0/VONzvEYF9SI/AAAAAAAAAiQ/uW7ns73yfOQ/s1600/peacock.jpg" class="gallery-item" />
+        <div class="caption">Birds</div>
+      </div>
+    </a>
+
+    <a href="watch.html">
+      <div class="gallery-item-wrapper">
+        <img src="https://media.istockphoto.com/id/458727719/photo/rolex-deepsea-wristwatch.jpg?s=612x612&w=0&k=20&c=9hv7ESwsaurJuqlMU0vnVzIVtq8CXNGe0j_Hs3ldb4Y=" class="gallery-item" />
+        <div class="caption">Watch</div>
+      </div>
+    </a>
+    
+    <a href="animals.html">
+      <div class="gallery-item-wrapper">
+        <img src="https://media.istockphoto.com/id/1162765061/photo/red-deer-crossing-a-sand-path-in-the-middle-of-a-forest-in-a-wildlife-park-the-veluwe-the.webp?a=1&b=1&s=612x612&w=0&k=20&c=DkGHjtoaqn1Xsruz8a279uQ7eHtyVRBy7XuMEJ-risc=" class="gallery-item" />
+        <div class="caption">Animals</div>
+      </div>
+    </a>
+
+    <a href="food.html">
+      <div class="gallery-item-wrapper">
+        <img src="https://t4.ftcdn.net/jpg/09/12/10/25/360_F_912102578_dpR2r8IstjbBzQWgn2dAegf6SE2gDPNT.jpg" class="gallery-item" />
+        <div class="caption">Food</div>
+      </div>
+    </a>
+    
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" />
+    <p id="lightbox-caption" style="color: white; margin-top: 10px;"></p>
+    <a class="prev" onclick="changeSlide(-1)">❮</a>
+    <a class="next" onclick="changeSlide(1)">❯</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

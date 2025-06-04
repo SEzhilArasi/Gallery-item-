@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nature Gallery</title><link rel="stylesheet" href="styles.css" /></head>
+<body><h1>Nature Gallery</h1><a href="index.html"  class="back-button">← Back to Home</a>
+<div class="gallery">
+  <img src="https://c.wallhere.com/photos/1d/0f/nature_landscape_sunset_clouds_water_Niagara_Falls_waterfall_long_exposure-152601.jpg!d" class="gallery-item" onclick="openLightbox(0)" />
+  <img src="https://wallpaperbat.com/img/41624881-nature-wallpaper-hd-hd-nature.jpg" class="gallery-item" onclick="openLightbox(1)" />
+  <img src="https://wallpaperbat.com/img/37114368-4k-nature-wallpaper.jpg" class="gallery-item" onclick="openLightbox(2)" />
+  <img src="https://wallpapers.com/images/hd/spring-zoom-background-tuq76ejk5ox12y3v.jpg" class="gallery-item" onclick="openLightbox(3)" />
+  <img src="https://wallpaperbat.com/img/41624921-sunrays-through-trees-and-path-between.jpg" class="gallery-item" onclick="openLightbox(4)" />
+  <img src="https://www.pixelstalk.net/wp-content/uploads/2014/12/Beautiful-Tulip-Flowers-Garden-Wallpaper-Full-HD.jpg" class="gallery-item" onclick="openLightbox(5)" />
+  <img src="https://media.istockphoto.com/id/1125394931/photo/sunrise-at-natures-window-in-kalbarri-national-park-western-australia-2.jpg?s=612x612&w=0&k=20&c=7Uhr9E4EOHalDVrBKWFLRfgIrdeDrzbjL3vR3uPHMEk=" class="gallery-item" onclick="openLightbox(6)" />
+  <img src="https://static.vecteezy.com/system/resources/previews/029/771/813/non_2x/epicgraphy-shot-of-rainy-season-background-enjoying-nature-rainfall-and-happy-life-concept-generative-ai-free-photo.jpeg" class="gallery-item" onclick="openLightbox(7)" />
+  <img src="https://wallpaperbat.com/img/41624922-wallpaper-nature-photo-picture.jpg" class="gallery-item" onclick="openLightbox(8)" />
+  <img src="https://wallpaperbat.com/img/670033-nature-hd-wallpaper-realistic-background-high-quality-bliz-pix-desktop-background.jpg" class="gallery-item" onclick="openLightbox(9)" />
+  <img src="https://ideaschedule.com/wp-content/uploads/2021/05/kerala-11-scaled.jpg" class="gallery-item" onclick="openLightbox(10)" />
+  <img src="https://media.istockphoto.com/id/1132850000/photo/pink-rose-bushes-blooming-garden-summer.jpg?s=612x612&w=0&k=20&c=O0sN5-Jg4uJ6ssIsMXTGRjCd-a6l6D_g_xg8XtdF5v8=" class="gallery-item" onclick="openLightbox(11)" />
+  <img src="https://c.wallhere.com/photos/bd/bb/india_tamilnadu_nagercoil_paddyfields_greenery_green_hills_landscape-1114680.jpg!d" class="gallery-item" onclick="openLightbox(12)" />
+  <img src="http://wallpapercave.com/wp/GbWrVE4.jpg" class="gallery-item" onclick="openLightbox(13)" />
+  <img src="https://picjumbo.com/wp-content/uploads/beautiful-nature-scenery-free-photo-2210x1473.jpg" class="gallery-item" onclick="openLightbox(14)" />
+  <button id="seeMoreBtn" class="see-more-btn" onclick="showMore()">See More</button>
+
+</div>
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" />
+  <a class="prev" onclick="changeSlide(-1)">❮</a>
+  <a class="next" onclick="changeSlide(1)">❯</a>
+</div>
+<script src="script.js"></script></body></html>

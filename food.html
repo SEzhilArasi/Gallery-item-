@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Foods Gallery</title><link rel="stylesheet" href="styles.css" /></head>
+<body><h1>Foods Gallery</h1><a href="index.html"  class="back-button">← Back to Home</a>
+<div class="gallery">
+    <img src="http://www.snazzycuisine.com/wp-content/uploads/2016/04/Chicken-65.jpg" class="gallery-item" onclick="openLightbox(0)" />  
+    <img src="https://www.whiskaffair.com/wp-content/uploads/2020/09/Chicken-Chettinad-Curry-2-1-720x1080.jpg" class="gallery-item" onclick="openLightbox(1)" />  
+    <img src="https://4.bp.blogspot.com/-DlBSx4pXeqQ/Tq6wHGtRGhI/AAAAAAAAAh8/4WGl19vjEXg/s1600/DSC02954.JPG" class="gallery-item" onclick="openLightbox(2)" />  
+    <img src="https://3.bp.blogspot.com/-4giX6lHJoMQ/UyNzA6E9tOI/AAAAAAAAC6E/pWVWyGUd94U/w1200-h630-p-k-no-nu/Anchovy+Fry.jpg" class="gallery-item" onclick="openLightbox(3)" />  
+    <img src="https://2.bp.blogspot.com/--TE6JrpgyP4/VVoSS8Ue5fI/AAAAAAAAEDg/B_Zx-kJ2cHM/s1600/NMS_2729.JPG" class="gallery-item" onclick="openLightbox(4)" />  
+    <img src="https://en.petitchef.com/imgupl/recipe/chettinad-crab-masala-chettinad-nandu-masala--51730p65039.jpg" class="gallery-item" onclick="openLightbox(5)" />  
+    <img src="https://i.ytimg.com/vi/QQT9kWEFpM8/maxresdefault.jpg" class="gallery-item" onclick="openLightbox(6)" />  
+    <img src="https://hungryforever.net/wp-content/uploads/2017/10/meen-kulambu-recipe.jpg" class="gallery-item" onclick="openLightbox(7)" />  
+    <img src="https://www.whiskaffair.com/wp-content/uploads/2020/04/Kerala-Style-Egg-Curry-2-1.jpg" class="gallery-item" onclick="openLightbox(8)" />  
+    <img src="https://www.kannammacooks.com/wp-content/uploads/sura-puttu-recipe-1-1024x1024.jpg" class="gallery-item" onclick="openLightbox(9)" />  
+    <img src="https://i.ytimg.com/vi/Y-yZT1PA3Gg/maxresdefault.jpg" class="gallery-item" onclick="openLightbox(10)" />  
+    <img src="https://1.bp.blogspot.com/-sG55wb7rk3I/WU-5deep8sI/AAAAAAAAAbk/K8sPS40EfDM5QDMDUtjBMn9KZ6P_qYg0ACLcBGAs/s1600/Bombil%2BFry.jpg" class="gallery-item" onclick="openLightbox(11)" />  
+<button id="seeMoreBtn" class="see-more-btn" onclick="showMore()">See More</button>
+
+  </div>
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" />
+  <a class="prev" onclick="changeSlide(-1)">❮</a>
+  <a class="next" onclick="changeSlide(1)">❯</a>
+</div>
+<script src="script.js"></script></body></html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Birds Gallery</title><link rel="stylesheet" href="styles.css" /></head>
+<body><h1>Birds Gallery</h1><a href="index.html"  class="back-button">← Back to Home</a>
+<div class="gallery">
+  <img src="https://external-preview.redd.it/HRl3NCo7-gFokLzkDt4WMUTz7FJDuJePof-rVpChGrw.jpg?auto=webp&s=8cabb405a19ec84ab8e7e3bf53fd983bc0ee2481" class="gallery-item" onclick="openLightbox(0)" />
+  <img src="https://wallpapercave.com/wp/wp7039664.jpg" class="gallery-item" onclick="openLightbox(1)" />
+  <img src="https://www.pixelstalk.net/wp-content/uploads/2016/04/Bird-wallpapers-HD-free-download.jpg" class="gallery-item" onclick="openLightbox(2)" />
+  <img src="https://wallup.net/wp-content/uploads/2016/01/4265-parrot-birds-animals.jpg" class="gallery-item" onclick="openLightbox(3)" />
+  <img src="https://www.pixelstalk.net/wp-content/uploads/2016/04/Animals-Birds-Wallpaper-HD-Backgrounds-1920x1080.jpg" class="gallery-item" onclick="openLightbox(4)" />
+  <img src="https://wallpaperaccess.com/full/3668439.jpg" class="gallery-item" onclick="openLightbox(5)" />
+  <img src="https://www.lovethegarden.com/sites/default/files/content/articles/UK_wildbirds-10-house-sparrow.jpg" class="gallery-item" onclick="openLightbox(6)" />
+  <img src="https://cdn.wallpapersafari.com/79/18/mGEdJe.jpg" class="gallery-item" onclick="openLightbox(7)" />
+  <img src="http://data.1freewallpapers.com/download/cute-bird-on-branch.jpg" class="gallery-item" onclick="openLightbox(8)" />
+  <img src="https://www.paradisecanvasprints.com/wp-content/uploads/2022/09/swan-open-wings-nature-canvas-prints-wall-art.jpg" class="gallery-item" onclick="openLightbox(9)" />
+  <img src="https://wallpaperaccess.com/full/860703.jpg" class="gallery-item" onclick="openLightbox(10)" />
+  <img src="https://www.perkypet.com/media/Articles/Perky-Pet/Spring-is-Here_1.jpg" class="gallery-item" onclick="openLightbox(11)" />
+  <img src="https://wallpapercave.com/wp/wp9140635.jpg" class="gallery-item" onclick="openLightbox(12)" />
+  <img src="https://c.pxhere.com/photos/14/89/bald_eagle_soaring_bird_raptor_flight_flying_wild_wildlife-645182.jpg!d" class="gallery-item" onclick="openLightbox(13)" />
+  <img src="http://1.bp.blogspot.com/-6anwlEoD-Ec/UmvgxLKbxsI/AAAAAAAAZhQ/z64F1RGv7iU/s1600/Flying+Birds+Wallpapers+%25283%2529.jpg" class="gallery-item" onclick="openLightbox(14)" />
+  
+</div>
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" />
+  <a class="prev" onclick="changeSlide(-1)">❮</a>
+  <a class="next" onclick="changeSlide(1)">❯</a>
+</div>
+<script src="script.js"></script></body></html>
